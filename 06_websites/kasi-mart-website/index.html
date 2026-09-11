@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kasi Mart | Eish, Come Through!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home"><b>K</b><span>Kasi<span>Mart</span></span></a>
+  <nav><a href="#home">Home</a><a href="#shop">Shop</a><a href="#kasi-life">Kasi Life</a><a href="#about">About</a></nav>
+  <a class="cart" href="#shop">🛒 Cart <strong>0</strong></a>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-photo"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="location">📍 Somewhere in Mzansi • Open daily</div>
+    <p class="eyebrow">WELCOME TO THE KASI</p>
+    <h1>Sharp sharp.<br><em>We got you.</em></h1>
+    <p class="hero-copy">Your neighbourhood spot for everyday essentials, tech, fashion and a little something extra. No stress. No long trip. Just pull up.</p>
+    <div class="actions"><a class="button" href="#shop">Shop now ↓</a><a class="ghost" href="#kasi-life">See the vibe →</a></div>
+  </div>
+  <div class="hero-sticker">KASI<br><span>FRESH</span><br>EVERY DAY</div>
+</section>
+
+<div class="marquee"><span>WELCOME TO KASI MART</span><b>✦</b><span>LOCAL ENERGY</span><b>✦</b><span>EVERYDAY ESSENTIALS</span><b>✦</b><span>YOH, WE'VE GOT IT</span><b>✦</b><span>WELCOME TO KASI MART</span></div>
+
+<section id="shop" class="shop section">
+  <div class="section-head">
+    <div><p class="eyebrow orange">THE SHOP</p><h2>What are you<br><em>looking for?</em></h2></div>
+    <p>From your next speaker to that fresh pair of sneakers — browse the shelves.</p>
+  </div>
+  <div class="filters"><button class="active" data-f="all">Everything</button><button data-f="Electronics">Tech</button><button data-f="Home">Home</button><button data-f="Fashion">Fashion</button><button data-f="Beauty">Beauty</button></div>
+  <div class="products">
+    <article data-c="Electronics"><div class="product-image speaker">🔊</div><small>TECH</small><h3>Bluetooth Speaker</h3><p>Big sound. Small package.</p><strong>R799</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Electronics"><div class="product-image power">🔋</div><small>TECH</small><h3>Power Bank</h3><p>Stay charged, boss.</p><strong>R499</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Home"><div class="product-image mug">☕</div><small>HOME</small><h3>Coffee Mug</h3><p>For the morning hustle.</p><strong>R149</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Home"><div class="product-image lamp">💡</div><small>HOME</small><h3>Desk Lamp</h3><p>Late-night grind sorted.</p><strong>R349</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Fashion"><div class="product-image shoes">👟</div><small>FASHION</small><h3>Sneakers</h3><p>Clean kicks, clean look.</p><strong>R899</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Fashion"><div class="product-image jacket">🧥</div><small>FASHION</small><h3>Denim Jacket</h3><p>Classic. Always works.</p><strong>R999</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Beauty"><div class="product-image cream">🧴</div><small>BEAUTY</small><h3>Moisturizer</h3><p>Keep that glow going.</p><strong>R279</strong><button onclick="addCart(this)">Add to basket</button></article>
+    <article data-c="Beauty"><div class="product-image mask">✨</div><small>BEAUTY</small><h3>Face Mask</h3><p>Self-care, kasi style.</p><strong>R129</strong><button onclick="addCart(this)">Add to basket</button></article>
+  </div>
+</section>
+
+<section id="kasi-life" class="culture">
+  <div class="culture-copy">
+    <p class="eyebrow">THE KASI VIBE</p>
+    <h2>More than a<br><em>shop.</em></h2>
+    <p>Kasi life is movement, colour, hustle, music, food, fashion and people looking out for one another. Kasi Mart is imagined as the kind of neighbourhood store where you pop in for one thing and somehow leave with three.</p>
+    <div class="culture-tags"><span>Ubuntu</span><span>Hustle</span><span>Style</span><span>Community</span><span>Mzansi</span></div>
+  </div>
+  <div class="photo-grid">
+    <figure class="big"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Soweto_Market_Place.jpg" alt="Market in Soweto"><figcaption>Market energy</figcaption></figure>
+    <figure><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Soweto_steet_vendors.jpg" alt="Street vendors in Soweto"><figcaption>Local hustle</figcaption></figure>
+    <figure><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Soweto_Township.jpg" alt="Soweto township"><figcaption>Home ground</figcaption></figure>
+  </div>
+</section>
+
+<section class="special">
+  <div class="special-photo"></div>
+  <div class="special-card">
+    <p class="eyebrow orange">TODAY IN THE KASI</p>
+    <h2>Pop in.<br>Stock up.<br><em>Keep moving.</em></h2>
+    <p>Whether you're sorting the crib, upgrading your setup or finding a fresh fit, Kasi Mart keeps the everyday hustle simple.</p>
+    <a class="button dark-button" href="#shop">Browse the shelves</a>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div><p class="eyebrow">KASI MART</p><h2>Built for the<br><em>neighbourhood.</em></h2></div>
+  <div><p>Kasi Mart is a fictional retail brand created as the business-facing side of a Snowflake data-engineering project. The real project dataset contains <b>50 customers, 20 products and 150 order records.</b></p><p>The store is fictional; the data-engineering learning is real.</p><a href="#home">Back to the top ↑</a></div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand"><b>K</b> Kasi<span>Mart</span></div>
+  <p>Sharp sharp. See you soon. 🇿🇦</p>
+  <small>Culture photography: Wikimedia Commons — Bobbyshabangu, Scarecr0wZA and Kasiwired. CC BY-SA 4.0.</small>
+</footer>
+
+<script>
+let cart=0;
+function addCart(btn){cart++;document.querySelector(".cart strong").textContent=cart;btn.textContent="Added ✓";setTimeout(()=>btn.textContent="Add to basket",900)}
+document.querySelectorAll(".filters button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".filters button").forEach(x=>x.classList.remove("active"));b.classList.add("active");let f=b.dataset.f;document.querySelectorAll(".products article").forEach(x=>x.hidden=f!=="all"&&x.dataset.c!==f)})
+</script>
+</body>
+</html>
