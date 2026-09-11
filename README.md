@@ -1,2 +1,3 @@
-# kasi_mart_data_engineering
-Data engineering project exploring data ingestion with Snowflake, relational joins, and data analysis to generate business insights.
+<p align="center">
+  <img src="05_assets/banner.png" alt="Kasi Mart Data Engineering Banner">
+</p>
