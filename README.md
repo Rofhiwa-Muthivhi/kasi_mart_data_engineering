@@ -7,10 +7,10 @@
 Kasi Mart is a project based on a small retail business that sells everyday products to customers across different provinces in South Africa. The business serves customers looking for affordable and convenient products across different areas.
 
 This business sells products across four main categories:
-📱 Electronics — electronic devices and accessories
-🏠 Home — products for everyday household use
-👕 Fashion — clothing and fashion-related products
-💄 Beauty — personal care and beauty products
+* 📱 Electronics — electronic devices and accessories
+* 🏠 Home — products for everyday household use
+* 👕 Fashion — clothing and fashion-related products
+* 💄 Beauty — personal care and beauty products
 
 The purpose of the project is to take these separate datasets and build relationships between them so that the business can use its data to answer basic questions about its customers, products and orders.
 
@@ -86,12 +86,14 @@ I also went beyond the core assignment and created two small websites using the 
 
 #### Kasi Mart Store 🛒
 A fun retail-style website created around the Kasi Mart business.
-Live Website: https://kasi-mart-data-engineering.vercel.app/
+Live Website:
+ https://kasi-mart-data-engineering.vercel.app/
 
 
 #### Data Engineering Learning Hub 📚 
 A learning website explaining some of the data engineering concepts I worked with during the project, using the Kasi Mart scenario.
-Live Website: https://kasi-mart-data-engineering-afdu.vercel.app/
+Live Website:
+ https://kasi-mart-data-engineering-afdu.vercel.app/
 
 
 ## What I Learned 🚀
