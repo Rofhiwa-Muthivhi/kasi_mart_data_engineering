@@ -87,13 +87,13 @@ I also went beyond the core assignment and created two small websites using the 
 #### Kasi Mart Store 🛒
 A fun retail-style website created around the Kasi Mart business.
 Live Website:
- https://kasi-mart-data-engineering.vercel.app/
+* https://kasi-mart-data-engineering.vercel.app/
 
 
 #### Data Engineering Learning Hub 📚 
 A learning website explaining some of the data engineering concepts I worked with during the project, using the Kasi Mart scenario.
 Live Website:
- https://kasi-mart-data-engineering-afdu.vercel.app/
+* https://kasi-mart-data-engineering-afdu.vercel.app/
 
 
 ## What I Learned 🚀
